@@ -1,0 +1,20 @@
+.rest-btn {
+  border: none;
+  background: rgb(0, 110, 255);
+  color: white;
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  margin: 2rem auto;
+  display: block;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  transition: 0.4s;
+}
+.rest-btn:hover {
+  background: rgb(40, 10, 155);
+}
+@media (max-width: 768px) {
+  .rest-btn {
+    padding: 0.3rem 0.7rem;
+  }
+}
